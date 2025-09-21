@@ -1,0 +1,84 @@
+/* General page layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #e6ccd6;
+    color: #333;
+}
+
+/* Main title */
+h1 {
+    text-align: center;
+    color: #570b27;
+}
+
+/* Sub-headings */
+h2 {
+    text-align: center;
+    color: #570b27;
+    margin-top: 30px;
+}
+
+/* Labels above inputs */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Inputs and selects */
+input,
+select {
+    margin: 5px 0 15px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Generate button */
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #570b27;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1c010b;
+}
+
+/* Divider between tasks */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+/* Result display */
+#result {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+/* List styling */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
